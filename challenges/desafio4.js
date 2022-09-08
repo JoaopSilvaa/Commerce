@@ -1,8 +1,8 @@
 db.produtos.find(
     {
         vendidos: {
-            $gte: 50,
-            $lte: 100,
+            $gt: 50,
+            $lt: 100,
         },
     },
     {
